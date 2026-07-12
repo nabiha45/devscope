@@ -38,7 +38,7 @@ Authentication  Repository   Analysis       AI
       │            │            │            │
       └────────────┴────────────┴────────────┘
                            │
-                     PostgreSQL
+                     Supabase PostgreSQL
                            │
                    Background Jobs
                            │

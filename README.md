@@ -28,14 +28,10 @@ DevScope is an AI-powered platform designed to help developers understand and na
 | Category              | Technologies                          |
 | --------------------- | ------------------------------------- |
 | Frontend              | Next.js, TypeScript, Tailwind CSS     |
-| Backend               | Python, FastAPI, SQLAlchemy           |
-| Database              | PostgreSQL, pgvector                  |
+| Backend               | Python, FastAPI, Psycopg 3           |
+| Database              | Supabase PostgreSQL, pgvector         |
 | AI & Code Analysis    | Gemini API, Tree-sitter               |
-| Visualization         | React Flow, Monaco Editor, Mermaid.js |
 | Background Processing | Celery, Redis                         |
-| Infrastructure        | Docker, Docker Compose                |
-| Database Migrations   | Alembic                               |
-
 ---
 
 ## 📂 Project Structure

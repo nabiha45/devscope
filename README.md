@@ -1,154 +1,60 @@
 # DevScope
 
-> **Understand any codebase in minutes.**
+**AI-Powered Codebase Intelligence & Developer Onboarding**
 
-DevScope is an AI-powered codebase intelligence and onboarding platform that helps developers understand unfamiliar repositories through repository analysis, semantic search, architecture visualization, and AI-assisted explanations.
-
-Instead of manually reading hundreds of files, developers can import a repository, explore its structure, ask questions in natural language, and receive contextual insights about the project's architecture, components, and relationships.
+DevScope is an AI-powered platform designed to help developers understand and navigate unfamiliar codebases. It combines repository analysis, semantic search, architecture visualization, and AI-assisted explanations to make exploring large repositories and onboarding to new projects easier.
 
 ---
 
-## Vision
+## 🚀 Features
 
-Understanding a large codebase is one of the biggest challenges for developers joining a new team or contributing to an open-source project.
+**Core Features (MVP)**
 
-DevScope aims to reduce onboarding time by combining static analysis, code parsing, semantic search, and modern AI capabilities into a single developer experience.
-
----
-
-## MVP Features
-
-* GitHub Authentication
-* Import GitHub repositories
-* Repository analysis
-* File explorer
-* Repository summary
+* GitHub authentication and repository import
+* Automated repository analysis and project summaries
+* Interactive file explorer
 * AI-powered codebase chat
 
----
+**Planned Features**
 
-## Planned Features
-
-### Repository Intelligence
-
-* Dependency graph
-* Call graph
-* Function explorer
-* Class explorer
-* Architecture diagrams
-* Project statistics
-
-### AI Features
-
-* Context-aware codebase chat
-* Semantic search
-* File explanations
-* Function explanations
-* AI-generated documentation
-* Onboarding assistant
-* Guided learning path
-
-### Static Analysis
-
-* Dead code detection
-* Duplicate code detection
-* Complexity analysis
-* Repository health dashboard
-* Security scanning
-* TODO/FIXME aggregation
+* **Repository Intelligence:** Dependency graphs, call graphs, architecture diagrams, and function/class exploration.
+* **AI-Assisted Development:** Semantic code search, contextual explanations, automated documentation, and personalized onboarding.
+* **Code Analysis:** Complexity analysis, dead code detection, duplicate code detection, security scanning, and repository health insights.
 
 ---
 
-## Technology Stack
+## 🛠️ Tech Stack
 
-### Frontend
-
-* Next.js
-* TypeScript
-* Tailwind CSS
-* React Flow
-* Monaco Editor
-* Mermaid.js
-
-### Backend
-
-* FastAPI
-* SQLAlchemy
-* PostgreSQL
-* Alembic
-
-### Background Processing
-
-* Celery
-* Redis
-
-### AI & Analysis
-
-* Gemini API
-* Tree-sitter
-* pgvector
-
-### Infrastructure
-
-* Docker
-* Docker Compose
+| Category              | Technologies                          |
+| --------------------- | ------------------------------------- |
+| Frontend              | Next.js, TypeScript, Tailwind CSS     |
+| Backend               | Python, FastAPI, SQLAlchemy           |
+| Database              | PostgreSQL, pgvector                  |
+| AI & Code Analysis    | Gemini API, Tree-sitter               |
+| Visualization         | React Flow, Monaco Editor, Mermaid.js |
+| Background Processing | Celery, Redis                         |
+| Infrastructure        | Docker, Docker Compose                |
+| Database Migrations   | Alembic                               |
 
 ---
 
-## Development Philosophy
-
-This project is intentionally being built using professional software engineering practices.
-
-The emphasis is on:
-
-* Clean architecture
-* Maintainable code
-* Production-quality design
-* Thorough documentation
-* Testing
-* Scalability
-* Continuous learning
-
-The objective is not simply to build an application, but to understand the engineering decisions behind every feature.
-
----
-
-## Project Status
-
-🚧 **Currently in active development**
-
-The project is being built incrementally, beginning with architecture and product planning before implementation.
-
-Current milestone:
-
-* Project planning and documentation
-
----
-
-## Repository Structure
+## 📂 Project Structure
 
 ```text
-frontend/     # Next.js application
-
-backend/      # FastAPI application
-
-docs/         # Documentation, architecture, API specifications, ADRs
-
-README.md
-
-CLAUDE.md
-
-PROJECT.md
-
-ARCHITECTURE.md
-
-ENGINEERING_PRINCIPLES.md
-
-TASKS.md
+DevScope/
+├── frontend/       # Next.js application
+├── backend/        # FastAPI application
+├── docs/           # Technical documentation
+├── README.md
+├── CLAUDE.md
+├── PROJECT.md
+├── ARCHITECTURE.md
+├── ENGINEERING_PRINCIPLES.md
+└── TASKS.md
 ```
 
 ---
 
-## Long-Term Goal
+## 🚧 Project Status
 
-Build a production-quality developer platform that demonstrates modern backend engineering, AI integration, and software architecture while serving as a flagship portfolio project.
+**Currently in active development.**

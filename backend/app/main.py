@@ -4,6 +4,10 @@ from fastapi import FastAPI
 
 from app.core.database import get_connection
 
+
+
+from app.core.db.queries import get_test_users 
+
 app = FastAPI(
     title="DevScope API",
     version="0.1.0",
@@ -36,3 +40,11 @@ def health():
             "status": "unhealthy",
             "error": str(e),
         }
+@app.get("/users")
+def users():
+
+    rows = get_test_users()
+
+    return {
+        "users": rows
+    }
